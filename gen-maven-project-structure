@@ -1,0 +1,5 @@
+#!/bin/bash
+mvn archetype:generate -DgroupId=org.example\
+ -DartifactId=hello-world2\
+ -DarchetypeArtifactId=maven-archetype-webapp\
+ -DinteractiveMode=false

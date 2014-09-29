@@ -1,0 +1,8 @@
+Simple Maven project to build a hello world warfile.
+
+For post-commit to a locally running Jenkins on port 8090
+copy the post-commit file to .git/hooks
+
+Edit src/main/webapp/index.jsp to play...
+
+Use 'mvn package' to build the warfile, output in target/hello-world2.war
